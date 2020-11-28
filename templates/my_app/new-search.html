@@ -8,21 +8,23 @@
 <div class="row">
     {% for post in final_posts%}
     <div class="col s4">
-        <div class="card">
+        <div class="card horizontal">
             <a href="{{post.0}}">
                 <div class="card-image">
                     <div>{{post.1}}</div>
                     <img src="{{post.2}}" alt="">
                 </div>
-                <div class="card-content grey-text text-darken-3">
-                    <h2 class="card-title">
-                        {{post.3}}
-                    </h2>
-                    <p>{{post.4}}</p>
-                </div>
-                <div class="card-action  amber-text text-darken-3">
-                    <p>PRICE: {{post.5}}</p>
-                    <p>{{post.6}}</p>
+                <div class="card-stacked">
+                    <div class="card-content grey-text text-darken-3">
+                        <h2 class="card-title">
+                            {{post.3}}
+                        </h2>
+                        <p>{{post.4}}</p>
+                    </div>
+                    <div class="card-action  amber-text text-darken-3">
+                        <p>PRICE: {{post.5}}</p>
+                        <p>{{post.6}}</p>
+                    </div>
                 </div>
             </a>
         </div>
