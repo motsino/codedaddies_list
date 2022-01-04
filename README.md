@@ -5,3 +5,4 @@ The sole purpose of this is to enhance my comprehension on web scraping and effe
 This may not be as good as other projects as i'm just a beginner in django and python at large.
 
 
+Here is a link to my app: https://olist-clone-app.herokuapp.com/
